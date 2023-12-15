@@ -1,0 +1,54 @@
+.block1{
+    border: solid #06559e38;
+    display: flex;
+}
+
+.carouseldiv{
+    /* border: solid blue; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.chartjsdiv{
+    /* border: solid green; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chartarea{
+    /* border: solid purple; */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 950px) {
+    .block1 {
+        flex-direction: column;
+        align-items: center;
+        margin: 5%;
+        margin-top: 0;
+        margin-bottom: 10%;
+    }
+
+    .carouseldiv{
+        /* border: solid blue; */
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    
+    .chartjsdiv{
+        /* border: solid green; */
+        width: 100%;
+    }
+
+    .chartjsdiv h5{
+        font-size: smaller;
+    }
+}
