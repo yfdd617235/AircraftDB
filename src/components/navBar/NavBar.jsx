@@ -1,5 +1,6 @@
 import React from 'react';
 import Referencedocs from '../dropdown/Referencedocs'
+import img1 from '../../imgs/logoATR.svg'
 import './navbar.css'
 
 
@@ -8,10 +9,11 @@ function NavBar() {
     <>
       <div className='nav-info'>
         
-        <div>
-          <h3>LEARJET 60-317</h3>
-          <h5>Registry: FAC-1216</h5>
-          <p>Damage chart - Dent and Buckle</p>
+        <div className='aircraft-info'>
+          <img className="aircraft-logo" src={img1} alt="First slide" />
+          <h4>42 / 72</h4>
+          <h6>Registry: XXXX</h6>
+          {/* <p>Damage chart - Dent and Buckle</p> */}
         </div>
 
         <div className='referencedocs-container'>

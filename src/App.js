@@ -1,11 +1,11 @@
 // import logo from './logo.svg';
 import './App.css';
-import Navigator from './components/navigator/Navigator'
+import Screem from './components/screem/Screem'
 
 function App() {
   return (
     <div className="App">
-      <Navigator/>
+      <Screem/>
     </div>
   );
 }

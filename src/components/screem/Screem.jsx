@@ -4,9 +4,9 @@ import Block1 from '../block1/Block1';
 import ExcelViewer from '../excelviewer/Excelviewer';
 import Referencedocs from '../dropdown/Referencedocs';
 
-import './navigator.css';
+import './screem.css';
 
-const Navigator = () => {
+const Screem = () => {
   const aboutMeRef = useRef(null);
   const experienceRef = useRef(null);
   const projectsRef = useRef(null);
@@ -52,5 +52,5 @@ const Navigator = () => {
   );
 };
 
-export default Navigator;
+export default Screem;
 
