@@ -7,34 +7,11 @@ import Referencedocs from '../dropdown/Referencedocs';
 import './screem.css';
 
 const Screem = () => {
-  const aboutMeRef = useRef(null);
-  const experienceRef = useRef(null);
-  const projectsRef = useRef(null);
-
-  const scrollToRef = (ref) => {
-    ref.current.scrollIntoView({ behavior: 'smooth' });
-  };
-
-  const handleNavItemSelect = (item) => {
-    switch (item) {
-      case 'aboutMe':
-        scrollToRef(aboutMeRef);
-        break;
-      case 'experience':
-        scrollToRef(experienceRef);
-        break;
-      case 'projects':
-        scrollToRef(projectsRef);
-        break;
-      default:
-        break;
-    }
-  };
 
   return (
     <div className='screem'>
       <div className='left-col'>
-        <NavBar onNavItemSelect={handleNavItemSelect} />
+        <NavBar />
       </div>
       <div className='right-col'>
         <div>

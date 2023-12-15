@@ -22,11 +22,14 @@
     display: flex;
     color: white;
 }
+.aircraft-info-child {
+    /* border: solid green; */
+    margin: 2%;
+}
 
 .aircraft-logo{
     /* border: solid yellow ; */
-    height: 50px;
-    padding: 2%;
+    height: 30px;
 }
 
 .referencedocs-container{
@@ -60,6 +63,6 @@
     }
 
     .aircraft-logo{
-        height: 40px;
+        height: 20px;
     }
 }

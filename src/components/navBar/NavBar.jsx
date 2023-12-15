@@ -10,9 +10,9 @@ function NavBar() {
       <div className='nav-info'>
         
         <div className='aircraft-info'>
-          <img className="aircraft-logo" src={img1} alt="First slide" />
-          <h4>42 / 72</h4>
-          <h6>Registry: XXXX</h6>
+          <img className="aircraft-logo aircraft-info-child" src={img1} alt="First slide" />
+          <h4 className="aircraft-info-child">42 / 72</h4>
+          <h6 className="aircraft-info-child">Registry: HK-XXXX</h6>
           {/* <p>Damage chart - Dent and Buckle</p> */}
         </div>
 

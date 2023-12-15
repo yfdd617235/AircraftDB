@@ -7,12 +7,13 @@
     /* border: solid blue; */
     width: 50%;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    justify-items: center;
+    align-items: center;
 }
 
 .chartjsdiv{
     /* border: solid green; */
+    margin: 2%;
     width: 50%;
     display: flex;
     justify-content: center;
