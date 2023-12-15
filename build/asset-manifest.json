@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.8666fdcb.css",
+    "main.css": "/static/css/main.318e4245.css",
     "main.js": "/static/js/main.8b65a463.js",
     "static/media/ATR-72-600-2023.png": "/static/media/ATR-72-600-2023.6d4e75073b537cccfc0c.png",
     "static/media/ATR-72-600F-2023.png": "/static/media/ATR-72-600F-2023.36a6df337ea92890e422.png",
@@ -8,11 +8,11 @@
     "static/media/ATR-42-600S-2023.png": "/static/media/ATR-42-600S-2023.8b16b184a3aa516409b8.png",
     "static/media/logoATR.svg": "/static/media/logoATR.de9de00afda8296a97a887a4eef1b339.svg",
     "index.html": "/index.html",
-    "main.8666fdcb.css.map": "/static/css/main.8666fdcb.css.map",
+    "main.318e4245.css.map": "/static/css/main.318e4245.css.map",
     "main.8b65a463.js.map": "/static/js/main.8b65a463.js.map"
   },
   "entrypoints": [
-    "static/css/main.8666fdcb.css",
+    "static/css/main.318e4245.css",
     "static/js/main.8b65a463.js"
   ]
 }
