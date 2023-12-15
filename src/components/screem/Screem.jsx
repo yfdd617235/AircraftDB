@@ -1,4 +1,3 @@
-import React, { useRef } from 'react';
 import NavBar from '../navBar/NavBar';
 import Block1 from '../block1/Block1';
 import ExcelViewer from '../excelviewer/Excelviewer';
